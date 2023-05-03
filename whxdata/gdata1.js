@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data>   <entry name=\"Active State\" value=\"When a kite is flying\" />   <entry name=\"Active Transaction Table\" value=\"When a kite is ascending or descending\" />   <entry name=\"ATU\" value=\"Automatic Kite Flying Transition Unit\" />   <entry name=\"Kite\" value=\"Something fun to fly\" />  </data>";

@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Fly","url":"Kites/Fly/Fly.htm"},{"type":"item","name":"Tips on How to Fly a Kite","url":"Kites/Fly/Tips_on_How_to_Fly_a_Kite.htm"},{"type":"item","name":"Find A Safe Space To Fly Your Kite","url":"Kites/Fly/Find_A_Safe_Space_To_Fly_Your_Kite.htm"},{"type":"item","name":"Kite Flying Weather","url":"Kites/Fly/Kite_Flying_Weather.htm"},{"type":"item","name":"Kite String","url":"Kites/Fly/Kite_String.htm"},{"type":"item","name":"Common Flight Problems","url":"Kites/Fly/Common_Flight_Problems.htm"},{"type":"item","name":"Glossary","url":"Kites/Fly/Glossary.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

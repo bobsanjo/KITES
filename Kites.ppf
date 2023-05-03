@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE polprojfile>
+<ppfml version="2.00" project="Kites" type="4">
+ <windowlist defaultwindow="NewWindow">
+  <window name="NewWindow" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes" caption="NewWindow">
+   <elements><element name="BrowseSequence" Present="yes" /><element name="SearchInput" Present="no" />
+   </elements>
+   <agents defaultagent="toc">
+    <agent>toc
+    </agent>
+    <agent>ndx
+    </agent>
+    <agent>nls
+    </agent>
+    <agent>gls
+    </agent>
+   </agents>
+  </window>
+ </windowlist>
+ <contextmap>
+ </contextmap>
+ <topiclist defaulttopic="Kites\Materials\Materials.htm">
+  <topic>Kites\Materials\Materials.htm
+  </topic>
+  <topic>Kites\Materials\Kite_Anatomy.htm
+  </topic>
+  <topic>Kites\Materials\Kite_Maker_Workflow.htm
+  </topic>
+  <topic>Kites\Materials\Bill_of_Materials.htm
+  </topic>
+  <topic>Kites\Assembly\Assembly.htm
+  </topic>
+  <topic>Kites\Assembly\Building_Your_Kite_Frame.htm
+  </topic>
+  <topic>Kites\Assembly\Creating_Your_Kite_Sail.htm
+  </topic>
+  <topic>Kites\Assembly\Attaching_the_String.htm
+  </topic>
+  <topic>Kites\Assembly\Attaching_A_Kite_Tail.htm
+  </topic>
+  <topic>Kites\Fly\Fly.htm
+  </topic>
+  <topic>Kites\Fly\Tips_on_How_to_Fly_a_Kite.htm
+  </topic>
+  <topic>Kites\Fly\Find_A_Safe_Space_To_Fly_Your_Kite.htm
+  </topic>
+  <topic>Kites\Fly\Kite_Flying_Weather.htm
+  </topic>
+  <topic>Kites\Fly\Kite_String.htm
+  </topic>
+  <topic>Kites\Fly\Common_Flight_Problems.htm
+  </topic>
+  <topic>Kites\Fly\Glossary.htm
+  </topic>
+ </topiclist>
+ <projectincludes>
+ </projectincludes>
+ <filenamemap>
+  <filenameentry moniker="wh_languagetype">
+   <filename>en_US
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="nls">
+   <filename>.nla
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="wh_lngfile">
+   <filename>index.lng
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="wh_stoplist">
+   <filename>index.stp
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="startpage">
+   <filename>index.html
+   </filename>
+  </filenameentry>
+ </filenamemap>
+</ppfml>
