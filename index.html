@@ -37,12 +37,11 @@ gCommonRootRelPath = ".";
 </head>
 
 
-
 <body data-rhwidget="Basic" data-controller="FAQController: faq; JsLoadingController;FavoritesController:fav" data-class="media-desktop: KEY_SCREEN_DESKTOP; media-tablet: KEY_SCREEN_TABLET; media-mobile: KEY_SCREEN_PHONE; ios: KEY_SCREEN_IOS" data-attr="dir:KEY_DIR">
 
 
-
 <script type="text/javascript" src="ehlpdhtm.js"></script>
+
 
 
 
@@ -141,14 +140,38 @@ gCommonRootRelPath = ".";
 -->
 <center>
 
+
 	<a href="topic.htm#t=Kites%2FMaterials%2FMaterials.htm"><img onmouseover="this.src='materials0.png'" onmouseout="this.src='materials.png'" src="materials.png" width=340, height = 230 /></a>
 	<a href="topic.htm#t=Kites%2FAssembly%2FAssembly.htm"><img onmouseover="this.src='assemble0.png'" onmouseout="this.src='assemble.png'" src="assemble.png" width=340, height = 230 /></a>
-	<a href="topic.htm#t=Kites%2FFly%2FFly.htm"><img onmouseover="this.src='fly0.png'" onmouseout="this.src='fly.png'" src="fly.png" width=340, height = 230 /></a><br><br><br>
+	<a href="topic.htm#t=Kites%2FFly%2FFly.htm"><img onmouseover="this.src='fly0.png'" onmouseout="this.src='fly.png'" src="fly.png" width=340, height = 230 /></a>
+	<img onmouseover="this.src='extra0.png'" height=230 onmouseout="this.src='extra.png'" src="extra.png" />
 
-    <img onmouseover="this.src='extra0.png'" height=200 onmouseout="this.src='extra.png'" height = 40 src="extra.png" height = 40 />
+  <div class="sky">
+    <div class="clouds"></div>
+
+    <div class="airplane">
+      <img src="https://i.ibb.co/SPpRcJz/airplane.png">
+
+    <div class="flame"></div>
+    <div class="flame flame2"></div>
+    </div>
+
+    <div class="mountains"></div>
+  </div>
+
+
+
+
     <br><a href="https://drive.google.com/file/d/1rCWQx_TkVmRPW5fHtaoSiWiTXSKTsH9f/view?usp=share_link">PDF</a>
 
+
+
+
+
 </center>
+
+
+
 
 	<div class="frontpage-footer footer" role="contentinfo" data-html="@KEY_LNG.Copyright"></div>
 
@@ -371,5 +394,90 @@ gCommonRootRelPath = ".";
 
 </body>
 
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.sky{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #00ccff;
+  overflow-x: hidden;
+}
+.clouds{
+  position: absolute;
+  top:50px;
+  height: 100px;
+  right: 0;
+  left: -2000px;
+  width: 500%;
+  background-image: url(https://i.ibb.co/7S6qn59/clouds.png);
+  background-repeat: repeat-x;
+  animation: clouds 50s linear infinite;
+}
+@keyframes clouds{
+  100%{
+    transform: translateX(2000px);
+  }
+}
+.mountains{
+  position: absolute;
+  bottom:0;
+  height: 250px;
+  right: 0;
+  left: -2000px;
+  width: 500%;
+  background-image: url(https://i.ibb.co/zJbfkgZ/mountain.png);
+  background-repeat: repeat-x;
+  animation: mountains 10s linear infinite;
+}
+@keyframes mountains{
+  100%{
+    transform: translateX(2000px);
+  }
+}
+
+.airplane{
+  top: 40px;
+  left:40%;
+  position: absolute;
+  z-index: 1;
+}
+
+.flame{
+  top: -40px;
+  left: 150px;
+  height: 10px;
+  width:60px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #ffffff;
+  animation: flame 0.3s linear infinite;
+   z-index: -1;
+}
+.flame2{
+  top: -195px;
+  left: 115px;
+}
+@keyframes flame{
+  0%{
+    transform: translateX(0%);
+  }
+  50%{
+    transform: translateX(50%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+
+
+Resources1× 0.5× 0.25×Rerun
+
+</style>
 
 </html>
